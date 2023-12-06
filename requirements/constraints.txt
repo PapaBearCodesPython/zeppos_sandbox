@@ -58,7 +58,7 @@ pip-tools==7.3.0
     # via -r requirements/development.in
 pipdeptree==2.13.1
     # via -r requirements/development.in
-platformdirs==4.0.0
+platformdirs==4.1.0
     # via
     #   black
     #   pylint
