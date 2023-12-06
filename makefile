@@ -46,9 +46,9 @@ RELEASE_VERSION := $$($(BIN)/python -m setuptools_scm)
 # ********************* Build the app ************************************************
 # ************************************************************************************
 
-#build: deps-keep check-code-quality: ## Build the project
+build: deps-keep check-code-quality ## Build the project
 
-#rebuild: deps-update check-code-quality: ## Rebuild the project
+rebuild: deps-update check-code-quality ## Rebuild the project
 
 check-code-quality: black pylint mypy pydocstyle test-unit ## Check the code quality before checkin (black, pylint, mypy, pydocstyle, and test)
 
