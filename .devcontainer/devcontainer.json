@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-	"name": "dummy_api",
+	"name": "zeppos_sandbox",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": {
         "dockerfile": "./Dockerfile",
@@ -39,23 +39,12 @@
 				"python.defaultInterpreterPath": "/usr/local/bin/python"
 			},
 			"extensions": [
-				// "aaron-bond.better-comments",
-				// "emmanuelbeziat.vscode-great-icons",
-				// "formulahendry.code-runner",
-				// "foxundermoon.shell-format",
-				// "Gruntfuggly.todo-tree",
 				"hashicorp.terraform",
-				// "joshbolduc.commitlint",
-				// "ms-python.black-formatter",
-				// "ms-python.pylint",
-				// "ms-python.python",
-				// "NikosKornarakis.predawn-twilight",
-				// "peakchen90.open-html-in-browser",
-				// "PeterSchmalfeldt.explorer-exclude",
-				// "streetsidesoftware.code-spell-checker",
-				// "tamasfe.even-better-toml",
-				// "tomoki1207.pdf",
-				// "waderyan.gitblame",
+				"ms-python.black-formatter",
+				"ms-python.pylint",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"vivaxy.vscode-conventional-commits",
 				"wayou.vscode-todo-highlight"
 			  ]
 		}
