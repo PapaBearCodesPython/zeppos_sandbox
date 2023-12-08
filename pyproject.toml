@@ -15,7 +15,6 @@ keywords = ["pypi", "template", "zeppos"]
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 classifiers = [
-    "Framework :: Airflow",
     "Programming Language :: Python :: 3",
 ]
 dynamic = ["version", "dependencies", "optional-dependencies"]
